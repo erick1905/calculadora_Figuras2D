@@ -1,0 +1,4 @@
+grant codeBase "file:."{
+    permission java.net.SocketPermission "localhost:1099", "listen,resolve";
+    permission java.net.SocketPermission "localhost:*", "accept,resolve";  
+};
